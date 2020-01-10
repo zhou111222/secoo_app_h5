@@ -4,7 +4,6 @@
     "description": "secoo page building tools",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "start": "SET NODE_ENV=development&& node ./bin/watch.js",
         "dev": "webpack --mode development&& node ./build.js",
         "build": "SET NODE_ENV=production && webpack --mode production&& node ./build.js",
@@ -47,6 +46,7 @@
         "browser-sync": "^2.26.7",
         "cheerio": "^1.0.0-rc.3",
         "colors": "^1.4.0",
+        "glob": "^7.1.6",
         "inquirer": "^7.0.0",
         "n-zepto": "^1.2.0",
         "node-sass": "^4.13.0",
